@@ -12,7 +12,7 @@ bat 'javac Demo.java'
 }
 }
 stage('Run Code') {
-steps {
+steps { 
 bat 'java Demo'
 }
 }
