@@ -3,17 +3,17 @@ agent any
 stages {
 stage('Clone Code') {
 steps {
-git branch: 'main', url: 'https://github.com/kabil164/jenkins-demo.git'
+git branch: 'master', url: 'https://github.com/Sajithkrishnan3/Sample'
 }
 }
 stage('Compile Code') {
 steps {
-bat 'javac demo.java'
+bat 'javac Demo.java'
 }
 }
 stage('Run Code') {
 steps {
-bat 'java demo'
+bat 'java Demo'
 }
 }
 }
