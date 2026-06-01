@@ -2,7 +2,7 @@ class Practice {
 
  static void World(){
     System.out.println("Hi This is Sajith");
-  System.out.println("Updated Print");
+  System.out.println("Edited file");
   
   
 
